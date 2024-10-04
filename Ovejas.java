@@ -1,4 +1,4 @@
-(Codewars)
+// Usando Codewars
 
 class Kata {
   public static String countingSheep(int num) {
@@ -12,7 +12,9 @@ class Kata {
   }
 }
 
-(OnlineGDB)
+----------------------------------------------------------------------
+	
+// Usando OnlineGDB
 
  public class Main
 {
