@@ -21,7 +21,7 @@ class Kata {
 	public static void main(String[] args) {
 	    
 	    int num = 20;
-		String resultado = "";
+	    String resultado = "";
     
      for(int i = 1; i <= num; i++){    
       resultado = resultado + i + " sheep...";
