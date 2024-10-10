@@ -11,11 +11,11 @@
         int ImpDescontado2 = ImpInicial * (Desc2/100);
         int ImpFinal;
         
-        if (nProductos < 3){
+        if (nProductos <= 3){
             ImpFinal = ImpInicial - ImpDescontado1;
             System.out.println("EL precio es de " + ImpFinal);
         }
-        else(nProductos >= 3){
+        else(nProductos > 3){
             ImpFinal = ImpInicial - ImpDescontado2;
             System.out.println("El precio es de " + ImpFinal);
         }
