@@ -1,24 +1,22 @@
+import 
+   
     public class{
-    
-    
     public static void main (int nProductos){
         
         final int Desc1 = 25;
         final int Desc2 = 50;
         
         int ImpInicial;
-        int ImpDescontado1 = ImpInicial * (Desc1/100);
-        int ImpDescontado2 = ImpInicial * (Desc2/100);
-        int ImpFinal;
+        float ImpDescontado;
+        float ImpFinal;
         
         if (nProductos <= 3){
-            ImpFinal = ImpInicial - ImpDescontado1;
-            System.out.println("EL precio es de " + ImpFinal);
+            ImpDescontado = ImpInicial * ((double)Des1/100);
         }
         else(nProductos > 3){
-            ImpFinal = ImpInicial - ImpDescontado2;
-            System.out.println("El precio es de " + ImpFinal);
+            ImpDescontado = ImpInicial * ((double)Desc2/100)
         }
-        
+        ImpFInal = ImpInicial - ImpDescontado
+         System.out.println("EL precio es de " + ImpFinal);
     }
 }
