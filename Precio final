@@ -1,22 +1,30 @@
-import 
+import java.util.Scanner;
    
-    public class{
+    public class {
     public static void main (int nProductos){
         
         final int Desc1 = 25;
         final int Desc2 = 50;
-        
         int ImpInicial;
+        
+        Scanner datos = new Scanner(System.in);
+        
+        System.out.println("Introduce el número de productos");
+        nProductos = new Scanner(System.in);
+        
+        System.out.println("Introduce el precio de los productos");
+        ImpInicial = new Scanner(System.in);
+        
         float ImpDescontado;
         float ImpFinal;
         
         if (nProductos <= 3){
             ImpDescontado = ImpInicial * ((double)Des1/100);
         }
-        else(nProductos > 3){
-            ImpDescontado = ImpInicial * ((double)Desc2/100)
+        else{
+            ImpDescontado = ImpInicial * ((double)Desc2/100);
         }
-        ImpFInal = ImpInicial - ImpDescontado
+        ImpFInal = ImpInicial - ImpDescontado;
          System.out.println("EL precio es de " + ImpFinal);
     }
 }
