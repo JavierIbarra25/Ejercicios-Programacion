@@ -1,4 +1,4 @@
-public class Main {
+public class main {
     public static void main(String[] args) {
 
         int llarg = 300;
@@ -7,7 +7,6 @@ public class Main {
         int ample2 = 80;
         int profunditat2 = 35;
         int ample3 = ample1 + ample2;
-        int profunditat3 = profunditat1 + profunditat2;
 
         //Piscina 1
 
@@ -28,7 +27,7 @@ public class Main {
         int AreaPiscina3 = ample3 * llarg;
         System.out.println("valor del àrea de les dues piscines: " + AreaPiscina3);
 
-        int VolumPisccina3 = AreaPiscina3 * profunditat3;
+        int VolumPisccina3 = VolumPiscina1 + VolumPiscina2;
         System.out.println("valor del volum de les dues piscines: " + VolumPisccina3);
 
         //Piscines valors intercanviats
